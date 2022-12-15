@@ -17,7 +17,7 @@ class RecetteController extends Controller
     public function show($id)
     {
         return view('recette.show', [
-            'recette' => Recette::findOrFail($id)  
+            'recette' => Recette::findOrFail($id)
         ]);
     }
 }
