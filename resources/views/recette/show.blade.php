@@ -15,5 +15,11 @@
                 {{ $ingredient->nom }}
             </div>
         @endforeach
+
+        @foreach ($recette->ustensiles as $ustensile)
+            <div>
+                {{ $ustensile->nom }}
+            </div>
+        @endforeach
     </div>
 @endsection
