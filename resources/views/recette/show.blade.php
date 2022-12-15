@@ -21,5 +21,9 @@
                 {{ $ustensile->nom }}
             </div>
         @endforeach
+
+        <p>
+            {{ $recette->preparation }}
+        </p>
     </div>
 @endsection
