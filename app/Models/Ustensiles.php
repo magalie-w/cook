@@ -12,6 +12,6 @@ class Ustensiles extends Model
 
     public function recettes()
     {
-        return $this->belongsToMany(Recette::class, 'recettes_ustensiles', 'id_recette', 'id_ustensile');
+        return $this->belongsToMany(Recette::class, 'recettes_ustensiles', 'id_recettes', 'id_ustensiles');
     }
 }

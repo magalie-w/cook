@@ -13,7 +13,10 @@
 
 <body>
     <div class="mx-auto w-[900px]">
-        <img src="../logoTest.png" alt="logo" width="200">
+        <a href="/">
+            <img src="../logoTest.png" alt="logo" width="200">
+        </a>
+
         <div class="w-[900px] h-[10px] rounded bg-amber-900"></div>
     </div>
 

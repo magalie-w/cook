@@ -35,8 +35,8 @@ class LoginController extends Controller
         }
 
         return back()->withErrors([
-            'name' => 'Le nom est le mot de passe ne correspondent pas',
-        ])->onlyInput('name');
+            'namePassword' => 'Le nom est le mot de passe ne correspondent pas',
+        ])->onlyInput('namePassword');
 
     }
 

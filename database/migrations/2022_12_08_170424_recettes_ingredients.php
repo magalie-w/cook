@@ -14,8 +14,8 @@ return new class extends Migration
     public function up()
     {
         Schema::create('recettes_ingredients', function (Blueprint $table) {
-            $table->foreignId('id_recettes');
-            $table->foreignId('id_ingredients');
+            $table->foreignId('id_recette');
+            $table->foreignId('id_ingredient');
             $table->integer('quantite');
             $table->text('type');
         });
