@@ -26,4 +26,4 @@
             {{ $recette->preparation }}
         </p>
     </div>
-@endsection
+@endsection z
